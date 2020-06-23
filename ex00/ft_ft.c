@@ -9,6 +9,6 @@ void print_ft_ft(int *nbr)
 }
 int main(void)
 {
-	putnbr();
+	print_ft_ft('*nbr');
 		return(0);
 }
