@@ -1,14 +1,30 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_ft.c                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mshiba <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/06/24 15:39:27 by mshiba            #+#    #+#             */
+/*   Updated: 2020/06/24 15:56:43 by mshiba           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <stdio.h>
 #include <unistd.h>
 
-void print_ft_ft(int *nbr)
-{ if (nbr)
+int ft_putchar(char c);
+{
+	write(1 ,&c ,1);
+}
+
+
+void print_ft_ft()
+{
+	char nb = 42;
+   	if (nb >= 0)
 	{
-		*nbr = 42;
+		nb = 42;
 	}
 }
-int main(void)
-{
-	print_ft_ft('*nbr');
-		return(0);
-}
+
