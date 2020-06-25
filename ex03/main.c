@@ -1,29 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_div_mod.c                                       :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mshiba <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/06/25 12:52:14 by mshiba            #+#    #+#             */
-/*   Updated: 2020/06/25 12:59:13 by mshiba           ###   ########.fr       */
+/*   Created: 2020/06/25 12:59:40 by mshiba            #+#    #+#             */
+/*   Updated: 2020/06/25 13:02:43 by mshiba           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
-#include <unistd.h>
 #include <stdio.h>
-
-void  ft_div_mod(int a, int b, int *div, int *mod)
-
-{
-	if (b != 0 && div && mod)
-	{
-		*div = a / b;
-		*mod = a % b;
-	}
-}
+#include <unistd.h>
 
 int main()
+{
+	int a = 4;
+	int b = 8;
+	int c = 12;
+	int d = 16;
 
-	
+	ft_div_mod(a ,b ,&c , &d);
+	printf("%d\n" ,4);
+	return 0;
+}
+
