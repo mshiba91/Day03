@@ -6,26 +6,24 @@
 /*   By: mshiba <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/24 10:08:59 by mshiba            #+#    #+#             */
-/*   Updated: 2020/06/24 10:33:01 by mshiba           ###   ########.fr       */
+/*   Updated: 2020/06/25 11:42:12 by mshiba           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <stdio.h>
 #include <unistd.h>
 
-void ft_swap(int *a' int*d)
+void ft_swap(int *a, int*b)
 {
 	
     int temp;
 
-	if temp = *a
+	if(temp == *a)
 	
 	{
-		*a = *d;
+		*a = *b;
 		*a = temp;
-		*d = *a;
+		*b = *a;
 	}
 }
-int main()
-{
-     printf('*d', '*a');
-	 return (0)
+
+
