@@ -6,7 +6,7 @@
 /*   By: mshiba <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/24 10:38:05 by mshiba            #+#    #+#             */
-/*   Updated: 2020/06/25 11:41:18 by mshiba           ###   ########.fr       */
+/*   Updated: 2020/06/25 14:47:14 by mshiba           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,10 +19,13 @@ void ft_swap(int *a, int *b);
 int main(void)
 
 {
-		int a;
-		int b;
-		ft_swap(&a,&b);
-		printf("%d",'\n');
+        int a;
+	    int b;
+        int 2;
+		int 4;
+
+		ft_swap(&a, &b);
+		printf("%d, %d\n" ,a ,b);
 		return(0);
 }
 			
