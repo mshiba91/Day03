@@ -6,7 +6,7 @@
 /*   By: mshiba <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/23 16:58:02 by mshiba            #+#    #+#             */
-/*   Updated: 2020/06/23 17:12:25 by mshiba           ###   ########.fr       */
+/*   Updated: 2020/06/26 09:34:35 by mshiba           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,11 @@ void ft_ultimate_div_mod(int *a, int *b)
 	}
 }
 int main (void)
+
 {
-	ft_ultimate_div_mod(
+	int a = 24;
+	int b = 12;
+	ft_ultimate_div_mod(&a , &b);
+	printf("%d", a);
 	return(0);
 }
